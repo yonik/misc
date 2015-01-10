@@ -1,11 +1,12 @@
 
 # My first program, from 1978, "Midnight Inspection" on
 # a TRS-80 Model 1, Level 1 computer with Level 1 Basic.
-# From "Radio Shack Hardware Manual: Level 1 Users Manual (1977)"
+# From "USERS'S MANUAL FOR LEVEL 1 Radio Shack TRS-80 MICRO COMPUTER SYSTEM"
+# Copyright 1977, Radio Shack
 
 10 CLS 
 20 Y=1:N=0 
-30 P. "ANSWER THESE QUESTIONS WITH *YES' OR 'NO'." :P. 
+30 P. "ANSWER THESE QUESTIONS WITH 'YES' OR 'NO'." :P. 
 40 IN. "HAS THE CAT BEEN PUT OUT" ;A 
 50 IN. "IS THE PORCH LIGHT TURNED OFF" ;B 
 60 IN. "ARE ALL DOORS AND WINDOWS LOCKED" ;C 
@@ -17,3 +18,4 @@
 130 P. "SOMETHING HAS NOT BEEN DONE. DO NOT GO TO BED" 
 140 P. "UNTIL YOU FIND THE PROBLEM!" 
 150 GOTO 40 
+
